@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="/css/custom.css" />
+
+		<title>Cloudy</title>
+	</head>
+	<body>
+		<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+			<symbol id="cloudy" viewBox="0 0 200 100">
+				<title>Cloudy</title>
+				<path
+					opacity="0.5"
+					fill="#FFFFFF"
+					d="M36.622,44.648c-36.057,0-34.289,36.13-34.289,36.13c0,17.979,8.304,19.261,8.304,19.261
+		h25.985h25.986c0,0,8.304-1.282,8.304-19.261C70.912,80.778,72.68,44.648,36.622,44.648z"
+				/>
+				<path
+					fill="#FFFFFF"
+					d="M97.948,0.039c-65.305,0-62.103,65.178-62.103,65.178c0,32.561,15.039,34.624,15.039,34.624h47.063h47.063
+		c0,0,15.039-2.063,15.039-34.624C160.051,65.217,163.253,0.039,97.948,0.039z"
+				/>
+				<path
+					opacity="0.75"
+					fill="#FFFFFF"
+					d="M154.131,29.764c-45.776,0-43.533,45.747-43.533,45.747c0,22.824,10.543,24.33,10.543,24.33
+		h32.99h32.989c0,0,10.543-1.506,10.543-24.33C197.663,75.511,199.907,29.764,154.131,29.764z"
+				/>
+			</symbol>
+			<symbol id="github" viewBox="0 0 416 100">
+				<path
+					d="M178.138,45.403v37.905c0,0.217-0.037,0.693-0.377,0.881c0,0-8.25,5.811-21.849,5.811
+									C139.49,90,120,84.942,120,51.001C120,17.061,137.022,10,153.619,10c14.404,0,20.105,3.19,21.041,3.857
+									c0.342,0.245,0.443,0.607,0.443,0.907l-2.772,11.743c0,0.642-0.669,1.362-1.392,1.14c-2.302-0.712-5.919-2.19-14.314-2.19
+									c-9.699,0-20.03,2.872-20.03,24.693c0,21.816,9.921,24.411,17.024,24.411c6.019,0,8.196-0.742,8.196-0.742V58.721h-9.698
+									c-0.641,0-1.161-0.523-1.161-1.164V45.403c0-0.642,0.521-1.162,1.161-1.162h24.859C177.618,44.241,178.138,44.762,178.138,45.403z
+									 M305.086,14.067c0-0.646-0.513-1.169-1.154-1.169h-13.996c-0.64,0-1.159,0.522-1.159,1.169c0,0.002,0.004,27.049,0.004,27.049
+									h-21.817V14.067c0-0.646-0.515-1.169-1.155-1.169h-13.996c-0.637,0-1.156,0.522-1.156,1.169v73.242c0,0.646,0.52,1.173,1.156,1.173
+									h13.996c0.641,0,1.155-0.526,1.155-1.173V55.98h21.817c0,0-0.038,31.326-0.038,31.328c0,0.646,0.519,1.173,1.158,1.173h14.031
+									c0.641,0,1.152-0.526,1.154-1.173V14.067z M203.389,23.678c0-5.04-4.04-9.112-9.026-9.112c-4.979,0-9.023,4.072-9.023,9.112
+									c0,5.035,4.044,9.119,9.023,9.119C199.349,32.796,203.389,28.713,203.389,23.678z M202.388,71.858c0-1.876,0-33.809,0-33.809
+									c0-0.642-0.518-1.167-1.158-1.167h-13.952c-0.64,0-1.213,0.66-1.213,1.302c0,0,0,40.682,0,48.438c0,1.423,0.887,1.847,2.035,1.847
+									c0,0,5.955,0,12.57,0c1.38,0,1.718-0.678,1.718-1.87C202.388,84.004,202.388,73.833,202.388,71.858z M358.279,36.993h-13.889
+									c-0.638,0-1.155,0.525-1.155,1.171v35.913c0,0-3.529,2.581-8.538,2.581c-5.008,0-6.336-2.271-6.336-7.176c0-4.909,0-31.318,0-31.318
+									c0-0.646-0.518-1.171-1.155-1.171h-14.097c-0.637,0-1.158,0.525-1.158,1.171c0,0,0,19.125,0,33.69s8.118,18.128,19.285,18.128
+									c9.163,0,16.55-5.062,16.55-5.062s0.353,2.668,0.511,2.983c0.158,0.316,0.573,0.636,1.021,0.636l8.969-0.04
+									c0.636,0,1.156-0.525,1.156-1.17l-0.004-49.166C359.439,37.519,358.92,36.993,358.279,36.993z M415.82,60.874
+									c0,22.577-7.315,29.046-20.072,29.046c-10.864,0-16.604-5.438-16.604-5.438s-0.349,2.983-0.591,3.376
+									c-0.246,0.396-0.578,0.623-1.016,0.623c-0.004,0-9.738,0-9.739,0c-0.64,0-1.158-0.526-1.158-1.173V14.067
+									c0-0.646,0.519-1.169,1.156-1.169h14.037c0.638,0,1.155,0.522,1.155,1.169v24.801c0,0,5.365-3.52,13.254-3.52
+									C404.137,35.348,415.82,38.298,415.82,60.874z M399.679,61.753c0-11.932-4.819-13.442-9.821-12.994
+									c-3.956,0.353-7.18,2.329-7.18,2.329v23.193c0,0,3.269,2.187,8.086,2.334C397.504,76.817,399.679,74.334,399.679,61.753z
+									 M242.615,36.877h-10.5c0,0-0.016-13.868-0.016-13.871c0-0.525-0.27-0.788-0.877-0.788h-14.307c-0.557,0-0.855,0.246-0.855,0.78
+									v14.333c0,0-7.171,1.731-7.656,1.871c-0.48,0.14-0.837,0.585-0.837,1.117v9.007c0,0.647,0.517,1.17,1.157,1.17h7.336
+									c0,0,0,9.42,0,21.67c0,16.094,11.289,17.676,18.908,17.676c3.48,0,7.644-1.118,8.332-1.372c0.416-0.152,0.657-0.584,0.657-1.051
+									l0.011-9.909c0-0.645-0.545-1.168-1.159-1.168c-0.612,0-2.178,0.249-3.789,0.249c-5.157,0-6.905-2.397-6.905-5.503
+									c0-3.102,0-20.592,0-20.592h10.5c0.641,0,1.158-0.522,1.158-1.17V38.044C243.773,37.397,243.256,36.877,242.615,36.877z M51.263,0
+									C22.955,0,0,22.952,0,51.27c0,22.649,14.688,41.864,35.062,48.645c2.563,0.467,3.499-1.113,3.499-2.472
+									c0-1.217-0.044-4.444-0.069-8.723c-14.26,3.099-17.27-6.872-17.27-6.872c-2.331-5.919-5.692-7.499-5.692-7.499
+									c-4.655-3.178,0.352-3.116,0.352-3.116c5.145,0.362,7.853,5.286,7.853,5.286c4.573,7.831,11.999,5.569,14.92,4.26
+									c0.466-3.313,1.791-5.575,3.255-6.854c-11.384-1.297-23.352-5.692-23.352-25.339c0-5.597,1.998-10.173,5.277-13.757
+									c-0.527-1.297-2.287-6.509,0.502-13.567c0,0,4.304-1.378,14.098,5.255c4.089-1.137,8.475-1.706,12.834-1.726
+									c4.355,0.02,8.738,0.588,12.835,1.726c9.789-6.634,14.085-5.255,14.085-5.255c2.797,7.058,1.035,12.271,0.51,13.567
+									c3.283,3.583,5.268,8.16,5.268,13.757c0,19.696-11.986,24.029-23.407,25.296c1.841,1.586,3.479,4.715,3.479,9.497
+									c0,6.854-0.062,12.38-0.062,14.063c0,1.371,0.922,2.963,3.525,2.465c20.355-6.792,35.027-25.995,35.027-48.638
+									C102.53,22.952,79.578,0,51.263,0z"
+				/>
+			</symbol>
+		</svg>
+		<div class="bg-image servers-background">
+			<!-- ----- ----- ----- -->
+			<!-- Header -->
+			<!-- ----- ----- ----- -->
+			<div>
+				<div class="container">
+					<header class="d-flex flex-wrap justify-content-center py-md-5 py-3 mb-4 main-navigation">
+						<a
+							href="/"
+							class="
+								d-flex
+								align-items-center
+								mb-3 mb-md-0
+								me-md-auto
+								text-dark text-decoration-none
+							"
+						>
+							<svg class="me-3" width="50" height="25"><use xlink:href="#cloudy" /></svg>
+							<span class="fs-4 text-white fw-bold fuenteSerif">Cloudy</span>
+						</a>
+
+						<ul class="menu nav nav-pills menu justify-content-center">
+							<li class="nav-item menu-item">
+								<a href="#" class="nav-link text-white position-relative">Servicios</a>
+							</li>
+							<li class="nav-item menu-item">
+								<a href="#" class="nav-link text-white position-relative">Como funciona</a>
+							</li>
+							<li class="nav-item menu-item">
+								<a href="#" class="nav-link text-white position-relative">Precios</a>
+							</li>
+							<li class="nav-item menu-item">
+								<a href="#" class="nav-link text-white position-relative">Contacto</a>
+							</li>
+						</ul>
+					</header>
+				</div>
+			</div>
+			<!-- ----- ----- ----- -->
+			<!-- Hero -->
+			<!-- ----- ----- ----- -->
+			<div>
+				<div class="container py-md-5 py-3">
+					<div class="d-grid grid-md-2-col grid-1-col align-items-center py-md-5">
+						<div>
+							<h1 class="display-5 fw-bold lh-1 mb-3 text-uppercase">
+								Mantenga sus archivos seguros
+							</h1>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam consectetur
+								culpa sed impedit dolore doloremque sapiente voluptas perferendis
+								necessitatibus enim.
+							</p>
+							<a href="#" class="btn btn-info text-white fw-bold btn-lg rounded-pill"
+								>Contactanos</a
+							>
+						</div>
+						<div class="grid-md-start-1">
+							<img
+								src="/media/servers-m.webp"
+								class="d-md-none d-block img-fluid servers__image"
+								alt="Cloudy Servers"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ----- ----- ----- ----- -->
+		<!-- Cloud Companies -->
+		<!-- ----- ----- ----- ----- -->
+		<div>
+			<div class="container py-md-5 py-3">
+				<div class="d-grid grid-xl-4-col grid-lg-3-col grid-2-col gap-5">
+					<div>
+						<a href="#">
+							<img src="/media/digitalocean.svg" alt="Logo de Digital Ocean " class="img-fluid" />
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img src="/media/googlecloud.svg" alt="Logo de Google Cloud" class="img-fluid" />
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img src="/media/onedrive.svg" alt="Logo de Onedrive" class="img-fluid" />
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img src="/media/azure.svg" alt="Logo de Microsoft Azure" class="img-fluid" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ----- ----- ----- ----- -->
+		<!-- Advantage -->
+		<!-- ----- ----- ----- ----- -->
+		<div>
+			<div class="container py-md-5 py-3">
+				<div class="d-grid grid-lg-3-col grid-md-2-col grid-1-col gap-3">
+					<div class="bg-blue blue-transparency rounded-5 p-4">
+						<img
+							src="media/phone.webp"
+							width="200px"
+							height="200px"
+							alt="Celular con apps"
+							class="d-block mx-auto"
+						/>
+						<h3 class="h4 mt-3">Aplicaciones</h3>
+						<hr class="py-1 rounded-pill bg-info text-info opacity-100 w-25" />
+						<p class="fs-7">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta reprehenderit
+							voluptatem quaerat harum veritatis reiciendis, maxime ipsam pariatur deleniti
+							repellat laborum.
+						</p>
+					</div>
+					<div class="bg-blue shadow-lg rounded-5 p-4">
+						<img
+							src="media/screw.webp"
+							width="200px"
+							height="200px"
+							alt="Tuerca encima de un servidor"
+							class="d-block mx-auto"
+						/>
+						<h3 class="h4 mt-3">Automatización</h3>
+						<hr class="py-1 rounded-pill bg-info text-info opacity-100 w-25" />
+						<p class="fs-7">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta reprehenderit
+							voluptatem quaerat harum veritatis reiciendis, maxime ipsam pariatur deleniti
+							repellat laborum aliquid rerum voluptatibus.
+						</p>
+					</div>
+					<div class="bg-blue blue-transparency rounded-5 p-4">
+						<img
+							src="media/up.webp"
+							width="200px"
+							height="200px"
+							alt="Servidor elevandose de el suelo"
+							class="d-block mx-auto"
+						/>
+						<h3 class="h4 mt-3">Integraciones</h3>
+						<hr class="py-1 rounded-pill bg-info text-info opacity-100 w-25" />
+						<p class="fs-7">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta reprehenderit
+							voluptatem quaerat harum veritatis reiciendis, maxime ipsam pariatur deleniti
+							repellat laborum aliquid rerum voluptatibus soluta recusandae illo tempora itaque.
+							Error.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bg-image tower-background">
+			<!-- ----- ----- ----- ----- -->
+			<!-- Journey -->
+			<!-- ----- ----- ----- ----- -->
+			<div>
+				<div class="container py-md-5 py-3">
+					<div class="d-grid grid-lg-2-col grid-1-col">
+						<div>
+							<h2 class="text-uppercase mb-5">Trayecto</h2>
+							<div class="d-grid grid-1-col gap-4">
+								<div class="bg-blue bg-b blue-transparency rounded-5 p-5">
+									<h3>Busquedas</h3>
+									<hr class="py-1 rounded-pill bg-info text-info opacity-100 w-25" />
+									<p class="fs-7">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+										Dicta reprehenderit voluptatem quaerat harum veritatis
+										reiciendis, maxime ipsam pariatur deleniti repellat laborum
+										aliquid rerum voluptatibus soluta recusandae illo tempora
+										itaque. Error.
+									</p>
+								</div>
+								<div class="bg-blue shadow-lg rounded-5 p-5">
+									<h3>Consultas</h3>
+									<hr class="py-1 rounded-pill bg-info text-info opacity-100 w-25" />
+									<p class="fs-7">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+										Dicta reprehenderit voluptatem quaerat harum veritatis
+										reiciendis, maxime ipsam pariatur deleniti repellat laborum
+										aliquid rerum voluptatibus soluta recusandae illo tempora
+										itaque. Error.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="grid-md-start-1">
+							<img
+								src="/media/tower-servers.webp"
+								class="d-md-none d-block img-fluid servers__image"
+								alt="Cloudy Servers Tower"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ----- ----- ----- ----- -->
+			<!-- Subscription -->
+			<!-- ----- ----- ----- ----- -->
+			<div>
+				<div class="container py-md-5 py-3">
+					<div class="d-grid grid-lg-2-col grid-1-col">
+						<div class="py-md-7 py-3">
+							<p>Envíanos tu correo electrónico para recibir actualizaciones!</p>
+							<div class="input-group mb-3">
+								<input
+									type="text"
+									class="form-control border-0 bg-blue py-3"
+									placeholder="Introduce tu correo aqui"
+									aria-label="Introduce tu correo aqui"
+									aria-describedby="button-addon2"
+								/>
+								<button
+									class="btn btn-info btn-submit text-white"
+									type="button"
+									id="button-addon2"
+								>
+									Enviar
+								</button>
+							</div>
+							<p>O encuéntranos aquí:</p>
+
+							<a href="#" target="_blank" rel="noopener noreferrer">
+								<svg width="208" height="50" fill="#fff">
+									<use xlink:href="#github" />
+								</svg>
+							</a>
+						</div>
+						<div class="grid-start-1">
+							<img
+								src="/media/phone-servers.webp"
+								class="d-md-none d-block img-fluid servers__image"
+								alt="Cloudy Servers Phone"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ----- ----- ----- ----- -->
+		<!-- Footer -->
+		<!-- ----- ----- ----- ----- -->
+		<div class="container">
+			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+				<p class="col-md-4 mb-0">&copy; 2021 Cloudy, Inc</p>
+
+				<a
+					href="/"
+					class="
+						col-md-4
+						d-flex
+						align-items-center
+						justify-content-center
+						mb-3 mb-md-0
+						me-md-auto
+						link-dark
+						text-decoration-none
+					"
+				>
+					<svg width="50" height="25"><use xlink:href="#cloudy" /></svg>
+				</a>
+
+				<ul class="nav col-md-4 justify-content-end">
+					<li class="nav-item"><a href="#" class="nav-link px-2 link-light">Nosotros</a></li>
+					<li class="nav-item"><a href="#" class="nav-link px-2 link-light">Contacto</a></li>
+					<li class="nav-item"><a href="#" class="nav-link px-2 link-light">Terminos</a></li>
+					<li class="nav-item"><a href="#" class="nav-link px-2 link-light">Privacidad</a></li>
+				</ul>
+			</footer>
+		</div>
+		<script src="/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+		<script src="/js/custom.js"></script>
+	</body>
+</html>
