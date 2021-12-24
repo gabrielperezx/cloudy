@@ -31,10 +31,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	&.tower-background {
-		background-image: url('/media/tower.webp');
+		background-image: url('./media/tower.webp');
 	}
 	&.servers-background {
-		background-image: url('/media/servers.webp');
+		background-image: url('./media/servers.webp');
 	}
 }
 
