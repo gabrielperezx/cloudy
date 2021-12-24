@@ -30,11 +30,11 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	&.tower-background {
-		background-image: url('./media/tower.webp');
-	}
 	&.servers-background {
 		background-image: url('./media/servers.webp');
+	}
+	&.tower-background {
+		background-image: url('./media/tower.webp');
 	}
 }
 
