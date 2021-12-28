@@ -23,6 +23,9 @@ $fs-8: 0.75rem;
 	font-family: 'Roboto Slab', serif;
 	letter-spacing: 2px;
 }
+#navbar {
+	transition: top 0.3s;
+}
 
 .btn-anim {
 	border: none;
