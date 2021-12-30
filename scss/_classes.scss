@@ -23,8 +23,12 @@ $fs-8: 0.75rem;
 	font-family: 'Roboto Slab', serif;
 	letter-spacing: 2px;
 }
-#navbar {
-	transition: top 0.3s;
+
+@include media-breakpoint-down(lg) {
+	.bg-dark-lg {
+		--bs-bg-opacity: 1;
+		background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+	}
 }
 
 .btn-anim {

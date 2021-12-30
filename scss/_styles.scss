@@ -1,28 +1,6 @@
-.main-navigation {
-	.menu {
-		> .menu-item {
-			> a {
-				&::after {
-					content: '';
-					position: absolute;
-					right: 0;
-					left: 50%;
-					bottom: 0;
-					transform: translate3d(-50%, 0, 0);
-					display: block;
-					width: 0;
-					height: 2px;
-					background-color: currentColor;
-					transition: 0.3s width ease;
-				}
-				&:hover {
-					&::after {
-						width: 50%;
-					}
-				}
-			}
-		}
-	}
+#navbar,
+#navigation {
+	transition: all 0.5s ease;
 }
 
 .bg-image {
