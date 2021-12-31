@@ -8,10 +8,10 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	&.servers-background {
+	&.bg-servers {
 		background-image: url('../media/servers.webp');
 	}
-	&.tower-background {
+	&.bg-tower {
 		background-image: url('../media/tower.webp');
 	}
 }
@@ -25,10 +25,10 @@
 
 @include media-breakpoint-down(md) {
 	.bg-image {
-		&.tower-background {
+		&.bg-tower {
 			background-image: none;
 		}
-		&.servers-background {
+		&.bg-servers {
 			background-image: none;
 		}
 	}
